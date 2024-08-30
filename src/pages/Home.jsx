@@ -1,9 +1,11 @@
 import React from 'react'
+import Wrapper from '../components/Layout/Wrapper'
 
 const Home = () => {
   return (
     
     <>
+    <Wrapper>
      {/* <!-- Modal Search Start --> */}
         <div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-fullscreen">
@@ -1013,7 +1015,7 @@ const Home = () => {
             </div>
         </div>
         {/* <!-- Tastimonial End --> */}
- 
+        </Wrapper>
 
     </>
 
